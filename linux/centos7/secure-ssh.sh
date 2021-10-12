@@ -1,6 +1,2 @@
-#secure.ssh-sh
-#author richiedennis
-#creates a new ssh user using $1 parameter
-#adds a public key from the local repo or curled from the remote repo
-#removes roots ability to ssh in
-echo "ALL YOUR CODE GOES HERE"
+sshpass -p '123Tantrix!' ssh -o StrictHostKeyChecking=no sys265@10.0.5.12
+
